@@ -53,7 +53,8 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 80%;
+    width: 72%;
+    justify-content: space-between;
    
 }
 
@@ -142,4 +143,17 @@ body{
     color: #00FFF8;
     font-weight: bold;
     font-size: 0.9rem;
+}
+
+.name{
+    color: #fff;
+}
+
+.wholeLine{
+    font-size: 0.9rem;
+}
+
+.name:hover{
+    color: #00FFF8;
+    cursor: pointer;
 }
