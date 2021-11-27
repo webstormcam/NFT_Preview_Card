@@ -44,6 +44,7 @@ body{
 
 .section3{
     margin-top: 1rem;
+    width: 100%;
 }
 
 
@@ -51,11 +52,15 @@ body{
 .icon_name{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    width: 80%;
    
 }
 
 .icon{
-    width: 1rem;
+    width: 2rem;
+    border: 1px solid #fff;
+    border-radius: 1rem;
 }
 
 .white{
