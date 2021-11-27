@@ -104,7 +104,7 @@ body{
 .time{
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 95px;
     justify-content: space-between;
 }
 
