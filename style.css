@@ -4,4 +4,24 @@
 
 body{
     font-family: 'Outfit', sans-serif;
+    background-color: #0D192C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    
+}
+
+#card{
+    background-color: #15263F;
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem;
+    border-radius: 1rem;
+}
+
+.sizeImg{
+    width: 18rem;
+    border-radius: 1rem;
 }
