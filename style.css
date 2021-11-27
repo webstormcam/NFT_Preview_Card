@@ -38,6 +38,7 @@ body{
 
 .section2{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .white{
@@ -92,6 +93,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid #00FFF8;
 }
 
 .ETH{
