@@ -1,12 +1,17 @@
 let sizeImg = document.getElementById('sizeImg')
 let eye = document.getElementById('eye')
+let layer = document.getElementById('layer')
 
 sizeImg.addEventListener('mouseover',function(event){
     
-   if(eye.style.display ==='none'){
-       eye.style.display ='block'
-   } else{
-       eye.style.display ='none'
-   }
-   console.log('hello')
+   layer.style.display= 'block'
+   eye.style.display ='block'
+   
 })
+
+sizeImg.addEventListener('mouseout',function(event){
+    
+    layer.style.display= 'none'
+    eye.style.display ='none'
+    
+ })
