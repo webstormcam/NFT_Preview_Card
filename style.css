@@ -19,11 +19,14 @@ body{
     flex-direction: column;
     padding: 1.4rem;
     border-radius: 1rem;
+    width: 330px;
+    align-items: center;
 }
 
 #sizeImg{
     width: 18rem;
     border-radius: 1rem;
+    cursor: pointer;
   
 }
 
@@ -44,6 +47,12 @@ body{
 
 .title{
     font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.title:hover{
+    color: #00FFF8;
+    cursor: pointer;
 }
 
 #layer{
@@ -58,9 +67,48 @@ body{
   
 }
 
+
+
 #eye{
     position: absolute;
     top: 40%;
     left: 42%;
     display: none;
+}
+
+.softBlue{
+    color: #8BACD9;
+   
+}
+
+.words{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.price_time{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ETH{
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    justify-content: space-between;
+}
+
+.time{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.cyan{
+    color: #00FFF8;
+    font-weight: bold;
 }
